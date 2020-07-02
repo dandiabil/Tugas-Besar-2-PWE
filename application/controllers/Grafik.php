@@ -8,7 +8,7 @@ class Grafik extends CI_Controller{
     }
 
     public function index(){
-        $data['graph'] = $this->M_grafik->get_data_stok();
+        $data['graph'] = $this->M_grafik->get_data_mhs();
         $this->load->view('layout/header');
         $this->load->view('v_grafik', $data);
         $this->load->view('layout/footer');
