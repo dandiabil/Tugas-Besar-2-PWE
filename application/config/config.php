@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //config base_url
-$config['base_url']	= "http://localhost/tb2final";
-$config['site_url']	= "http://localhost/tb2final";
+$config['base_url']	= "http://localhost/Tugas-Besar-2-PWE";
+$config['site_url']	= "http://localhost/Tugas-Besar-2-PWE";
 
 /*
 
